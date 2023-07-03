@@ -1,0 +1,80 @@
+{
+    "produits": [
+      {
+        "id": 1,
+        "nom": "T-shirt",
+        "description": "Un t-shirt confortable en coton",
+        "prix": 19.99,
+        "stock": 50,
+        "couleurs": ["rouge", "bleu", "vert"],
+        "tailles": ["S", "M", "L"]
+      },
+      {
+        "id": 2,
+        "nom": "Jeans",
+        "description": "Un jeans de qualité pour hommes",
+        "prix": 49.99,
+        "stock": 30,
+        "couleurs": ["bleu", "noir"],
+        "tailles": ["S", "M", "L", "XL"]
+      },
+      {
+        "id": 3,
+        "nom": "Robe",
+        "description": "Une robe élégante pour femmes",
+        "prix": 79.99,
+        "stock": 20,
+        "couleurs": ["noir", "rouge", "rose"],
+        "tailles": ["S", "M", "L"]
+      }
+    ],
+    "clients": [
+      {
+        "id": 1,
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "adresse": "123 Rue Principale",
+        "ville": "Paris",
+        "pays": "France",
+        "email": "jean.dupont@example.com"
+      },
+      {
+        "id": 2,
+        "nom": "Martin",
+        "prenom": "Marie",
+        "adresse": "456 Avenue Royale",
+        "ville": "Lyon",
+        "pays": "France",
+        "email": "marie.martin@example.com"
+      }
+    ],
+    "commandes": [
+      {
+        "id": 1,
+        "client_id": 1,
+        "produits": [
+          {
+            "produit_id": 1,
+            "quantite": 2
+          },
+          {
+            "produit_id": 3,
+            "quantite": 1
+          }
+        ],
+        "date": "2023-06-30"
+      },
+      {
+        "id": 2,
+        "client_id": 2,
+        "produits": [
+          {
+            "produit_id": 2,
+            "quantite": 1
+          }
+        ],
+        "date": "2023-07-01"
+      }
+    ]
+  }
+  

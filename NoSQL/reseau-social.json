@@ -1,0 +1,69 @@
+{
+    "utilisateurs": [
+      {
+        "id": 1,
+        "nom": "Jean Dupont",
+        "pseudo": "jeandu",
+        "email": "jean.dupont@example.com",
+        "date_inscription": "2022-01-15",
+        "publications": [
+          {
+            "id": 1,
+            "contenu": "Bonjour tout le monde !",
+            "date": "2022-01-15 10:00:00",
+            "likes": 10,
+            "commentaires": [
+              {
+                "id": 1,
+                "auteur": "Marie Martin",
+                "contenu": "Salut Jean !"
+              },
+              {
+                "id": 2,
+                "auteur": "Pierre Leblanc",
+                "contenu": "Bonjour Jean, comment ça va ?"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "contenu": "Je suis en vacances !",
+            "date": "2022-01-20 15:30:00",
+            "likes": 5,
+            "commentaires": [
+              {
+                "id": 1,
+                "auteur": "Marie Martin",
+                "contenu": "Profite bien de tes vacances !"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nom": "Marie Martin",
+        "pseudo": "mariem",
+        "email": "marie.martin@example.com",
+        "date_inscription": "2022-02-01",
+        "publications": []
+      },
+      {
+        "id": 3,
+        "nom": "Pierre Leblanc",
+        "pseudo": "pierrel",
+        "email": "pierre.leblanc@example.com",
+        "date_inscription": "2022-03-10",
+        "publications": []
+      },
+      {
+        "id": 4,
+        "nom": "Sophie Durand",
+        "pseudo": "sophied",
+        "email": "sophie.durand@example.com",
+        "date_inscription": "2022-04-05",
+        "publications": []
+      }
+    ]
+  }
+  
